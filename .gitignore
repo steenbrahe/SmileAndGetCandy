@@ -1,0 +1,15 @@
+HTML/images/
+.aws-sam/
+
+packaged-prod.yaml
+samconfig.toml
+signage_client/*
+ServerSide/build
+ServerSide/node_modules/
+ServerSide/package-lock.json
+.DS_Store
+node_modules/
+ServerSide/node_modules/
+package-lock.json
+cdk/dist/
+cdk/dist-iot/

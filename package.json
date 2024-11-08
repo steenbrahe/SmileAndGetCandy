@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.183.0",
+    "@aws-sdk/client-iot": "^3.226.0",
+    "@aws-sdk/client-iot-data-plane": "^3.226.0",
+    "@aws-sdk/client-rekognition": "^3.183.0"
+  }
+}

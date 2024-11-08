@@ -1,0 +1,14 @@
+[Unit]
+Description=Candy dispenser Service
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+
+[Service]
+ExecStart=/bin/bash -c /home/admin/dispenser/dispenser.sh
+WorkingDirectory=/home/admin/dispenser/
+User=admin
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
